@@ -1,0 +1,574 @@
+#header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 60px;
+    box-shadow: 10px 10px 20px rgba(41, 25, 12, 0.809);
+    background-color: #056168;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#navbar li{
+    list-style: none;
+    padding: 0 20px;
+    position: relative;
+}
+#navbar li a{
+   text-decoration: none;
+   font-size: 16px;
+   font-weight: 600;
+   color: black;
+   transition: 0.2s ease;
+}
+#navbar li a:hover,
+#navbar li a.active{
+    color: rgb(66, 3, 63);
+
+}
+#navbar li a.active::after,
+#navbar li a.hover::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: rgb(95, 17, 2);
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
+body{
+    width: 100%;
+    height: fit-content;
+}
+#hero{
+    background-image: url("https://images.alphacoders.com/957/957128.jpg");
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top 25% right 0;
+    
+}
+#hero h3{
+     font-size: 63px;
+     padding: 0%;
+     text-align: right;
+     font-weight: 400;
+     color: rgb(33, 59, 7);
+     position: relative;
+     top: -220px;
+     padding: 0 140px;
+}
+#hero  h1{
+    font-size: 40px;
+    padding: 0%;
+
+}
+#hero h2{
+    font-size: 55px;
+    padding: 0%;
+}
+#hero button{
+    font-size: 25px;
+    cursor: pointer;
+    margin: left 20px;
+    border: solid rgb(69, 37, 5) 3px;
+    font: italic;
+    background-color: blanchedalmond;
+}
+#hlo:hover{
+box-shadow: 5px 5px 10px rgb(112, 42, 42);
+}
+.section-p1{
+padding: 40px 80px;
+}
+.section-m1{
+    margin: 40px 0;
+}
+body{
+    width: 100%;
+}
+button.normal{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 16px;
+    color: black;
+    background-color: blanchedalmond;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.1s;
+
+}
+button.white{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 14px 16px;
+    color:rgb(13, 13, 13);
+    background-color: transparent;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid black
+    outline: none;
+    transition: 0.1s;
+
+}
+#feature{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#feature .fe-box{
+    width: 180px;
+    text-align: center;
+    padding: 25px 15px;
+    box-shadow: 10px 10px 25px rgb(41, 10, 10);
+    border: 2px solid rgb(118, 200, 222);
+    border-radius: 4px;
+    margin: 15pz 0;
+}
+#feature .fe-box:hover{
+    box-shadow: 10px 10px 55px rgb(58, 60, 111);
+
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    flex-wrap: wrap;
+}
+#product1 .pro{
+    width: 21%;
+    min-height: 250px;
+    padding: 10px 12px;
+    border: 2px solid rgb(7, 27, 60);
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 6px 6px 10px rgba(20, 66, 79, 0.85);
+    margin: 15px 0;
+    transition: 0.1ms ease;
+}
+#product1 .pro:hover{
+    box-shadow: 15px 15px 30px  rgb(182, 213, 235);
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 10px;
+}
+#product1 .pro .des{
+    text-align: start;
+    padding: 12px 0;
+}
+#product1 .pro .des span{
+    color: rgb(16, 0, 0);
+    font-size: 20px;
+
+}
+#product1 .pro .des i{
+    font-size: 25px;
+    color: goldenrod;
+}
+#product1 .pro .des h4 {
+    font-size: 20px;
+    color: rgba(18, 97, 18, 0.568);
+} 
+#product1 .pro .cart{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: blanchedalmond;
+    font-weight: 600;
+    color: gray;
+    border: 1px solid blanchedalmond;
+
+}
+#banner{
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/001/410/750/original/cyber-monday-happy-shopping-background-free-vector.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+}
+#banner button:hover{
+    background-color: rgb(30, 48, 2);
+    color: beige;
+}
+#sm-banner{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#sm-banner .bannerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("https://wallpaperboat.com/wp-content/uploads/2020/11/10/60057/shopping-07.jpg");
+   width: 750px;
+    height:50vh;
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+}
+#sm-banner .bannerbox2{
+    background-image: url("https://static.vecteezy.com/system/resources/previews/004/299/830/original/shopping-online-on-phone-with-podium-paper-art-modern-pink-background-gifts-box-illustration-free-vector.jpg");
+}
+#sm-banner h4{
+    color: rgba(80, 17, 75, 0.962);
+    font-size: 20px;
+    font-weight: 400;
+}
+#sm-banner h2{
+    font-size: 100px;
+    font-weight: 600;
+}
+#sm-banner span{
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+#sm-banner .bannerbox:hover button{
+    background: rgb(17, 117, 17);
+    border: 1px solid greenyellow;
+}
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+#banner3 .bannerbox{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url("https://www.tendencias.kpmg.es/wp-content/uploads/2018/11/GettyImages-912949110.jpg");
+   min-width: 30%;
+    height:30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+#banner3 .bannerbox2{
+    background-image: url("https://wallpapercave.com/wp/wp7566336.jpg")
+}
+#banner3 .bannerbox3{
+    background-image: url("https://s1.zerochan.net/Hatsune.Miku.600.289425.jpg");
+}
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(1, 1, 89);
+    background-position: 20% 30%;
+    background-repeat: no-repeat;
+}
+#newsletter h4{
+    font-size: 27px;
+    font-weight: 800;
+    color: bisque;
+}
+#newsletter p{
+    font-size: 15px;
+    font-weight: 600;
+    color: beige;
+}
+#newsletter p span{
+    color: rgb(181, 181, 62);
+}
+#newsletter .form{
+    display: flex;
+    width: 43%;
+
+}
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 15px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+#newsletter button{
+    background-color: rgb(251, 216, 172);
+    white-space: nowrap;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    
+}
+#newsletter button:hover{
+    background-color: rgb(26, 54, 26);
+    color: bisque;
+}
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+footer .col{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+footer .logo{
+    margin-bottom: 30px;
+    size: ;
+}
+footer h4{
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+footer p{
+    font-size: 15px;
+    margin: 0 0 8px 0;
+}
+footer a{
+    font-size: 15px;
+    text-decoration: none;
+    color: #222;
+    margin-bottom: 10px;
+}
+footer .follow{
+    margin-top: 20px;
+}
+footer .follow i{
+    color: #465b54;
+    padding-right: 6px;
+    cursor: pointer;
+}
+footer .follow i:hover,
+footer a:hover{
+    color: #076963;
+    box-shadow: 3px 3px 7px #465b54;
+    
+}
+
+
+
+/* shop page*/
+
+
+#pageheader{
+    background-image: url("https://images.freecreatives.com/wp-content/uploads/2016/04/Beautiful-Plain-Website-Background.jpg");
+    width: 100%;
+    height: 50vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 14px;
+}
+#pageheader h2,
+#pageheader p{
+    color: blanchedalmond;
+    font-size:  40px;
+}
+#pagination{
+    text-align: center;
+}
+#pagination a{
+    text-decoration: none;
+    background-color: #045752;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: aliceblue;
+    font-weight: 600;
+}
+
+
+/* blog page */
+
+
+#pageheader.blog-header{
+    background-image: url("https://wallpapercave.com/wp/wp2036901.jpg");
+}
+#blog{
+    padding: 150px 150px 0 150px;
+}
+#blog .blogbox{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-bottom: 90px;
+}
+#blog .blogimg{
+    width: 50%;
+    margin-right: 40px;
+}
+#blog img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+#blog .blogdetails{
+    width: 50%;
+}
+#blog .blogdetails a{
+    text-decoration: none;
+    font-size: 11px;
+    color: #000;
+    font-weight: 800;
+    position: relative;
+}
+#blog .blogdetails a::after{
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    position: absolute;
+    top: 4px;
+    right: -60px;
+}
+#blog .blogdetails a:hover{
+    color: #107a7a;
+}
+#blog .blogdetails a:hover::after{
+    background-color: #0b646c;
+}
+
+/* about page */
+
+#pageheader.aboutheader{
+    background-image: url("https://img.pikbest.com/back_our/20211011/bg/dadd0e063407e812d5ddbc2f43bf3cad_112550.png!bw700");
+}
+#abouthead {
+    display: flex;
+    align-items: center;
+}
+#abouthead img{
+    width: 50%;
+    height: auto;
+}
+#abouthead div{
+    padding-left: 40px;
+}
+#aboutapp{
+    text-align: center;
+}
+#aboutapp .video{
+    width: 70%;
+    height: 100%;
+    margin: 30px auto 0 auto;
+}
+#aboutapp .video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+#aboutapp  a:hover{
+    color: #045752;
+    box-shadow: #045752;
+
+}
+
+/*   contact page   */
+
+
+#pageheader.contactheader{
+    background-image: url("https://atg-group.fr/wp-content/uploads/2020/01/contact-background.jpg");
+}
+#contact-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid rgba(3, 61, 3, 0.154);
+}
+#contact-details.details{
+    width: 40%;
+}
+#contact-details.details span,
+#formdetails form span{
+    font-size: 20px;
+    margin-top: 20px;
+}
+#contact-details.details h2,
+#formdetails form h2{
+    font-size: 38px;
+    line-height: 35px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+#contact-details .details h3{
+    font-size: 17px;
+    padding-bottom: 16px;
+}
+#contact-details  .details li{
+    list-style: none;
+    display: flex;
+    padding: 10px 0;
+}
+#contact-details .details li i{
+    font-size: 14px;
+    padding-right: 22px;
+}
+#contact-details .details li p{
+    margin: 0;
+    font-size: 14px;
+}
+#contact-details .map{
+    width: 62%;
+    height: 450px;
+}
+#contact-details .map iframe{
+    width: 100%;
+    height: 100%;
+}
+#formdetails form{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+#formdetails form input,
+#formdetails form textarea{
+    width: 100%;
+    padding: 12px 15px;
+    outline: none;
+    margin-bottom: 20px;
+    border: 3px solid rgba(5, 31, 1, 0.289);
+}
+#formdetails form button{
+    margin-bottom: 30px;
+    background-color: #02401a;
+    color: bisque;
+}
+#formdetails form button:hover{
+    background-color: #076963;
+    color: #222;
+}
+
+/* details */
+.details>div>li{
+    list-style-type: none;
+}
+.xyz{
+    /* background-color: red; */
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+}
+.pqr{
+    margin-left: 5rem;
+}

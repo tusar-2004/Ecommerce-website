@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ECOMMERCE WEBSITE</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <a href="#"><img style="height: 120px;width:120px ;" src="https://th.bing.com/th/id/OIP.zTjv-RgwzSPRIjW8MLiMRQHaHa?pid=ImgDet&w=199&h=199&c=7" class="logo" alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">HOME</a></li>
+                <li><a href="shop.html">SHOP</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="cart.html"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a></li>
+            </ul>
+        </div>
+    </section >
+    <section id="hero">
+    
+        <h2>SUPER VALUE DEALS</h2>
+        <h1>ON ALL PRODUCTS</h1>
+        <p>SAVE MORE WITH COUPONS & UPTO 60% OFF!...</p>
+        <button style="box-shadow: 5px 5px 10px rgb(110, 92, 92);">shop now</button>
+    </section>
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="https://th.bing.com/th/id/OIP.hAnEg6g-Ui9SfOvxlQbh3gHaHa?w=220&h=220&c=7&r=0&o=5&pid=1.7">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">FREE SHIPPING</h3>
+
+        </div>
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="https://th.bing.com/th?id=OIP.auDSWuIFKbI-gXthYgVrOAHaIn&w=231&h=269&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">ONLINE ORDER</h3>
+
+        </div>
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="data:image/jpeg;base64,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">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">SAVE MONEY</h3>
+
+        </div>
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="https://th.bing.com/th?q=New+Year+Promotion+Icon&w=120&h=120&c=1&rs=1&qlt=90&cb=1&pid=InlineBlock&mkt=en-IN&cc=IN&setlang=en&adlt=moderate&t=1&mw=247">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">PROMOTIONS</h3>
+
+        </div>
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="https://th.bing.com/th/id/OIP.zBUIRd5M6gr7-rCewHVM6AHaHa?w=173&h=180&c=7&r=0&o=5&pid=1.7">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">HAPPY SHOP</h3>
+
+        </div>
+        <div class="fe-box">
+            <img style="height: 110px;width: 110px;" src="https://th.bing.com/th/id/OIP.GeOT_2PVEQeZsgV8wnDb3gHaHa?w=192&h=192&c=7&r=0&o=5&pid=1.7">
+            <h3 style="background-color: rgb(16, 15, 15);color: bisque;">24/7 SERVICE</h3>
+
+        </div>
+    </section>
+    <section id="product1" class="section-p1">
+        <h2 style="font-size: 40px;font-weight: bolder;"> FEATURED PRODUCTS</h2>
+        <P style="font-size: 15px;font-weight: 800;">FESTIVE COLLECTION ETHNIC WEARS </P>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="img2.jpg">
+                <div class="des">
+                    <span>MANYAVAR</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$78<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img3.jpg">
+                <div class="des">
+                    <span>HERE&NOW</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$98<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="img4.webp">
+                <div class="des">
+                    <span>XEPON</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$66<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="7.jpeg">
+                <div class="des">
+                    <span>JOMPERS</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$75<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="21.jpeg">
+                <div class="des">
+                    <span>ANITA-DONGRE</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$68<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="22.jpg">
+                <div class="des">
+                    <span>AMZIRA</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$98<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="23.jpg">
+                <div class="des">
+                    <span>MIDAV</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$86<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="24.webp">
+                <div class="des">
+                    <span>LOGASS</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$72<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+
+    </section>
+    <section id="banner" class="section-m1">
+        <h4 style="font-size: 40px; color: rgb(12, 95, 70);">
+            REPAIR SERVICES</h4>
+        <h1 style="font-size: 60px;color: burlywood; padding-bottom: 180px;">up to <span style="font-size: 60px; color: rgb(184, 5, 151);">70% off</span> in all Ethenic wears and accessories</h1>
+        <button class="normal">EXPLORE MORE</button>
+
+    </section>
+    <section id="product1" class="section-p1">
+        <h2 style="font-size: 40px;font-weight: bolder;"> NEW ARRIVALS</h2>
+        <P style="font-size: 15px;font-weight: 800;">FESTIVE COLLECTION ETHNIC WEARS </P>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="https://i.pinimg.com/originals/a8/37/b9/a837b998c283415668b2b5beeea46f5f.jpg">
+                <div class="des">
+                    <span>MANYAVAR</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$68<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://i.pinimg.com/originals/f7/fd/8e/f7fd8e59e6a0b172a1d0cbdf784ab089.jpg">
+                <div class="des">
+                    <span>HERE&NOW</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$92<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="https://i.pinimg.com/originals/aa/28/5e/aa285e7e48a3079bd0f4c8fb7cf8ea31.jpg">
+                <div class="des">
+                    <span>XEPON</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$62<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://i.pinimg.com/originals/5e/69/6e/5e696e4d9043c79d2c2d607e74cca429.jpg">
+                <div class="des">
+                    <span>JOMPERS</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$65<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://i.pinimg.com/originals/88/09/55/880955e82e8dfa1d7d35c715e1270fe0.jpg">
+                <div class="des">
+                    <span>ANITA-DONGRE</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$58<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://th.bing.com/th/id/OIP.OXT775IGakVk0nZnTdzQwAAAAA?rs=1&pid=ImgDetMain">
+                <div class="des">
+                    <span>AMZIRA</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$96<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="https://www.bombayboutique.net/image/cache/catalog/data/Silk%20India/Nawab/D-03Ia-1000x1400.png">
+                <div class="des">
+                    <span>MIDAV</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$82<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+
+            <div class="pro">
+                <img src="38.jpg">
+                <div class="des">
+                    <span>LOGASS</span>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$62<h4>
+
+                </div>
+                <a style="font-weight: 900;color: black;font-size: 30px; " href="#"><i class="fal fa-shopping-cart"></i></a>
+            </div>
+        </div>
+
+    </section>
+    <section id="sm-banner" class="section-p1">
+        <div class="bannerbox">
+            <h4>CRAZY DEALS</h4>
+            <h1>BUY 1 GET 1 FREE</h1>
+            <span>the best classic dress is on sale </span>
+            <button class="white">learn more</button>
+        </div>
+        <div class="bannerbox bannerbox2">
+            <h4>SPRING/SUMMER</h4>
+            <h1>UPCOMING SEASON</h1>
+            <span>the best classic dress is on sale </span>
+            <button class="white">COLLECTION</button>
+        </div>
+    </section>
+    <section id="banner3">
+        <div class="bannerbox">
+            <h2 style="font-size: 35px;font-weight: 900;">SEASONAL SALE!</h2>
+            <h3 style="font-size: 25px;font-weight: 700;color: rgb(129, 119, 9);">Festive collection -50% off</h3>
+        </div>
+        <div class="bannerbox bannerbox2">
+            <h2 style="font-size: 35px;font-weight: 900;">LATEST COLLECTION!</h2>
+            <h3 style="font-size: 25px;font-weight: 700;color: rgb(129, 119, 9);">Spring/Summer</h3>
+        </div>
+        <div class="bannerbox bannerbox3">
+            <h2 style="font-size: 35px;font-weight: 900;">SHERWANI!</h2>
+            <h3 style="font-size: 25px;font-weight: 700;color: rgb(129, 119, 9);">Trendy Designs </h3>
+        </div>
+    </section>
+    <section id="newsletter" class="section-p1">
+        <div class="newstext">
+            <h4>Sign up for newsletters</h4>
+            <p>get E-mail updates about our latest shop and <span>special offers.</span></p>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="your email adress">
+            <button class="normal">sign up</button>
+        </div>
+    </section>
+    <footer class="section-p1">
+        <div class="col">
+            <img style="size: 15px;" src="https://th.bing.com/th/id/OIP.zTjv-RgwzSPRIjW8MLiMRQHaHa?pid=ImgDet&w=199&h=199&c=7" alt="">
+            <h4>CONTACTS</h4>
+            <p><strong>ADDRESS :</strong>Isannagar,new satsang colony, Balasore,Odisha</p>
+            <P><strong>PHONE:</strong>(+91) 7653425652 / (+91) 5327545353</P>
+            <p><strong>HOURS:</strong>10:00 - 18:00 , MON - SAT</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f "></i>
+                    <i class="fab fa-twitter "></i>
+                    <i class="fab fa-instagram "></i>
+                    <i class="fab fa-pinterest-p "></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <h4>About</h4>
+            <a href="#"> About</a>
+            <a href="#">Delivery information</a>
+            <a href="#">privacy policy</a>
+            <a href="#">Terms & conditions </a>
+            <a href="#">contact us </a>
+        </div>
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#"> Sign in</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">help</a>
+        </div>
+        <div class="col install">
+            <h4>Install App</h4>
+            <p>From App Store or Google playstore</p>
+            <div class="row">
+                <img src="https://th.bing.com/th?id=OIP.Imop-GCYs8FIb6vAebV9-AHaFf&w=290&h=215&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+            </div>
+            <p>Secured Payments Gateways</p>
+            <img style="height: 120px;" src="https://th.bing.com/th/id/OIP.Cuf6Btong8KdYQVaQl0elQHaFj?w=230&h=180&c=7&r=0&o=5&pid=1.7" alt="">
+        </div>
+    </footer>
+    
+</body>
+</html>
